@@ -17,4 +17,4 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-echo 'src-git neobird https://github.com/thinktip/luci-theme-neobird.git' >>feeds.conf.default
+#echo 'src-git neobird https://github.com/thinktip/luci-theme-neobird.git' >>feeds.conf.default
