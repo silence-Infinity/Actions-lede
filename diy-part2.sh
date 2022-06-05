@@ -13,4 +13,6 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
+git clone https://github.com/kenzok78/luci-theme-argonne -b 21.02 ./package/argonne/luci-theme-argonne
+git clone https://github.com/kenzok78/luci-app-argonne-config ./package/argonne/luci-app-argonne-config
 sed -i 's/luci-theme-bootstrap/luci-theme-argonne/' feeds/luci/collections/luci/Makefile
